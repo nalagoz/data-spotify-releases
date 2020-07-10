@@ -6,6 +6,10 @@ Datta, Hannes, 2020, "Meta data on (album and single) releases to Spotify", http
 
 If you are a (potential) user of the data, please directly access its documentation using the link above.
 
+__Note:__ The data set is *not* released to the public yet (expected end of 2020). For questions, please mail h.datta@tilburguniversity.edu. The documentation of the data
+can already be accessed in `doc\readme-data.txt`.
+
+
 ## Maintaining new releases of the data
 
 Use this repository to maintain the dataset.
