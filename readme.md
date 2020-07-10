@@ -13,3 +13,5 @@ Use this repository to maintain the dataset.
 * `init.sh` loads the most recent version of the uploading tool for dataverse
 * `push_raw.sh` pushes the raw data to Dataverse (done once)
 * `push_release.sh` pushes (updates) to the documentation in `\doc`, or the prepared data set in `\release`.
+
+Note: API keys used in the `.sh` scripts is deprecated.
