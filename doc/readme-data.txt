@@ -348,7 +348,7 @@ Meta data on (album and single) releases to Spotify
 5.1  Has the dataset been used for any tasks already?
      If so, please provide a description.
 
-     Joint research with Nazil Alagoz and George Knox.
+     Joint research with Nazli Alagoz and George Knox.
      "Platform Incentives and Commercial Music Production".
 
 5.2  Is there a repository that links to any or all papers or systems
