@@ -7,8 +7,20 @@
 
 * Name of the dataset/database:
 
-Meta data on (album and single) releases to Spotify
-(2015/10/30 - 2018/6/26)
+Corresponding Chartmetric (CM) IDs of releases in Spotify-Dataset:
+raw/chartmetric/2019_10_07/album-ids.json
+
+|
+v
+Track content of albums from CM
+raw/chartmetric/2019_10_07/album-tracks.json
+
+|
+v
+Past releases of (some of the) artists found in the track content from CM
+raw/chartmetric/2019_10_07/artist-releases.json
+
+
 
 ==========================================================
 1. MOTIVATION
@@ -22,6 +34,8 @@ Meta data on (album and single) releases to Spotify
      Studying (potential changes) in the composition of
      new releases (i.e., music albums, singles) that
      became available on Spotify during the observation period.
+     To be able to compare music releases before and after 
+     artists start releasing on Spotify.
 
 
 1.2  Who created this dataset
@@ -29,8 +43,8 @@ Meta data on (album and single) releases to Spotify
      which entity (e.g., company, institution, organization)?
 
      Hannes Datta, Tilburg University.
-     By means of web scraping http://everynoise.com/sorting_hat_closet/
-     on 6 July 2018.
+     By means of a commercial API https://api.chartmetric.com/apidoc/
+     on 7 October 2019.
 
 1.3  Who funded the creation of the dataset?
      If there is an associated grant, please provide
@@ -54,12 +68,19 @@ Meta data on (album and single) releases to Spotify
      nodes and edges)?
      Please provide a description.
 
-     Weekly lists with new singles/album releases.
+     JSON objects containing information on CM album ID of a given album
+     
+     JSON objects contaning information on track content and track metadata of a given album
+
+     JSON object containing information on all the past releases of a given artist
+    
 
 2.2  How many instances are there in total
      (of each type, if appropriate)?
 
-     2,265,666
+     196,437 JSON non-empty objects containing information CM album IDs
+     196,437 JSON objects contaning information on track content and track metadata of a given album
+     139,433 JSON object containing information on all the past releases of a given artist
 
 2.3  Does the dataset contain all possible instances or is it a sample
      (not necessarily random) of instances from a larger set?
